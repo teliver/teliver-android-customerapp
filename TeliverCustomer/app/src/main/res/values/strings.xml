@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TeliverCustomer</string>
+    <string name="txtTrackingId">Tracking Id</string>
+    <string name="txtNoData">No Data Available</string>
+</resources>
