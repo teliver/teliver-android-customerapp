@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private AdapterTrackingId adapterTrackingId;
 
-    private String userName = "selvakumar";
+    private String userName = "user_1";
 
     private Application application;
 
@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
                 contentValues.put(database.TRACKING_ID, trackingId);
                 contentValues.put(database.MESSAGE, message);
                 long values = db.insert(database.TABLENAME, null, contentValues);
-                Log.d("TELIVER::", "NUMBER OF VALUES INSERTED ==  " + values);
             }
             refreshData();
             adapterTrackingId.notifyDataSetChanged();
@@ -123,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
         if (!listTrackingId.isEmpty())
             txtNoData.setVisibility(View.GONE);
         else txtNoData.setVisibility(View.VISIBLE);
-        Log.d("TELIVER::", "THE SIZE OF ARRAYLIST ==  " + listTrackingId.size());
     }
 
 

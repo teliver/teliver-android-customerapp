@@ -30,10 +30,6 @@
             android:name=".ActivityTracking"
             android:screenOrientation="portrait" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/map_api_key" />
-
         <receiver android:name=".NotificationReceiver">
             <intent-filter>
                 <action android:name="teliverMap"/>
