@@ -3,8 +3,8 @@ package com.telivercustomer;
 import android.app.NotificationManager;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.teliver.sdk.core.Teliver;
 import com.teliver.sdk.core.TrackingListener;
